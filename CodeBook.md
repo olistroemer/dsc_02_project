@@ -21,7 +21,7 @@ data <- read.table("summary.txt")
     Observed feature. This summarized data set contains only the estimations
     of the mean and the standard deviation from the original data set.
 
-    For a more detailed explaination please refere to the "features\_info.txt"
+    For a more detailed explaination please refer to the "features\_info.txt"
     in the original data set referenced in the above description.
 
 * walking, walkingupstairs, walkingdownstairs, sitting, standing, laying ::

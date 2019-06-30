@@ -29,19 +29,3 @@ data <- read.table("summary.txt")
 
     The mean of all the measurements performed by the subject for each of the
     activities.
-
-## Transformations Performed on the Original Data Set
-
-1. Merge the training and the test data.
-
-2. Rename the columns according to the `features.txt`.
-
-3. Filter only the columns regarding the mean and the standard deviation.
-
-4. Aggregate the mean of the features measurements over the activity and the
-   performing subject.
-
-5. Transform the table using the activities as column names (variables).
-
-6. Rename the columns with descriptive names using the lowercase labels from
-   `activity_labels.txt` with all characters except a-z stripped out.

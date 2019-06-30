@@ -13,9 +13,11 @@ data <- read.table("summary.txt")
 ## Variables
 
 * subject :: integer [1:30]
+
     This ID references the subject who performed the activity
 
 * feature :: character
+
     Observed feature. This summarized data set contains only the estimations
     of the mean and the standard deviation from the original data set.
 
@@ -24,6 +26,7 @@ data <- read.table("summary.txt")
 
 * walking, walkingupstairs, walkingdownstairs, sitting, standing, laying ::
   numeric [-1.0:1.0]
+
     The mean of all the measurements performed by the subject for each of the
     activities.
 

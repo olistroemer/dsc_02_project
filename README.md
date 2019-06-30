@@ -1,5 +1,8 @@
-# Summarize and Tidy Up the UCI "Human Activity Recognition Using Smartphones"
-# Data Set
+# Summarize and Tidy Up the UCI "Human Activity Recognition Using Smartphones" Data Set
+
+This repository is my attempt at the peer-graded assignment "Getting and
+Cleaning Data Course Project" from the John Hopkins Data Science Specialization
+on Coursera.
 
 * [Original source of the data
   set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
@@ -16,6 +19,9 @@
   `run_analysis.R` and the process behind
 
 ## `run_analysis.R` Abstract Process
+
+The detailed process is described in the code book. Also the script contains
+comments to guide you through the transformations applied.
 
 1. Download the data set and decompress it
 

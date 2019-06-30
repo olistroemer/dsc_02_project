@@ -44,4 +44,4 @@ data <- read.table("summary.txt")
 5. Transform the table using the activities as column names (variables).
 
 6. Rename the columns with descriptive names using the lowercase labels from
-   `activity\_labels.txt` with all characters except a-z stripped out.
+   `activity_labels.txt` with all characters except a-z stripped out.
